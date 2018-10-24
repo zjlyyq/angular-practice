@@ -1,0 +1,8 @@
+<h2>My Heroes</h2>
+<ul class="heroes">
+  <li *ngFor="let everyhero of heros" (click)="onSelect(everyhero)" [class.selected]="everyhero === hero">
+    <span class="badge">{{everyhero.id}}</span> {{everyhero.name}}
+  </li>
+</ul>
+<app-hero-detail [hero]="hero"></app-hero-detail>
+<!--[hero]属性绑定可以让父组件控制子组件-->
