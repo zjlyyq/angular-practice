@@ -1,6 +1,7 @@
 # Untitled1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
+You need to install node.js and npm if they are not available.Then you can get [Angular CLI] by typing 'npm install -g @angular/cli' in your comment line.
 
 ## Development server
 
